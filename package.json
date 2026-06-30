@@ -1,0 +1,10 @@
+{
+  "name": "exercise-tracker",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A local-first exercise tracker that can be hosted on your LAN for phone testing.",
+  "scripts": {
+    "start": "node scripts/serve.mjs",
+    "check": "node --check public/app.js && node --check scripts/serve.mjs"
+  }
+}
